@@ -51,8 +51,23 @@ Finish Location | The name of the location where the stage finished
 Is Final Stage | Boolean denoting whether the stage is the final of the tour
 
 ### Winners.json
+
+Heading |  Notes
+--- | --- 
 Stage-ID | Code that can be used to link stages between tables
 Year | The year of the race
-Stage Name | The name of the stage
+Stage Number | The stage number
 Name | The name of the winner of the stage
-Stage Finishing Time | The time taken to finish in *h ' "* format
+Stage Finishing Time | The time taken to finish in __h ' "__ format
+Rider Speed on Stage | The average speed of the stage in km/h
+
+### Jerseys.json
+Heading |  Notes
+--- | ---
+Stage-ID | Code that can be used to link stages between tables
+Year | The year of the race
+Stage Number | The stage number
+Yellow Jersey | The name of the hold of the yellow jersey at end of stage
+Green Jersey | The name of the holder of the green jersey
+Red Polka Dot Jersey | The name of the holder of the polka dot jersey
+White Jersey | The name of the holder of the white jersey
